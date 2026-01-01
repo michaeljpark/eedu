@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEDU - Essential Education Canada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500&display=block" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <img src="EEDUwithtext.svg" alt="EEDU Logo">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">The HSE Model</a></li>
+                    <li><a href="#curriculum">Curriculum</a></li>
+                    <li><a href="#hsei">HSE Index</a></li>
+                    <li><a href="#events">Featured Events</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="myeedu.html" class="btn-myeedu">MyEEDU</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="https://videos.pexels.com/video-files/3288315/3288315-uhd_2560_1440_30fps.mp4" type="video/mp4">
+        </video>
+        <div class="container hero-layout">
+            <div class="hero-text">
+                <h1>Essential Education Canada</h1>
+                <p>An Incentive and Safety Fence for the Next Generation</p>
+                <p class="hero-sub">Centralized Education in Public Law and Financial Services</p>
+            </div>
+            <div class="hero-action">
+                <a href="#curriculum" class="btn-primary">View Curriculum <span style="margin-left: 10px;">&rarr;</span></a>
+                <p class="hero-btn-desc">Empowering students with the tools for financial independence and legal literacy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">The HSE Model</h2>
+                    <p><strong>Human Socialization and Education (HSE)</strong> is a pioneering educational framework designed to bridge the critical gap between academic theory and practical application. Our mission is to build a robust foundation for students, enabling them to seamlessly integrate into essential institutional systems, including financial, legal, and administrative frameworks, before they transition into young adulthood.</p>
+                    <br>
+                    <p>Unlike traditional educational models that focus solely on academic achievement, the HSE Model prioritizes <strong>functional independence</strong>. We prepare students to navigate the complexities of modern financial ecosystems, understand the nuances of taxation, and operate confidently within legal frameworks. By mastering these competencies early, our graduates are not just educated; they are empowered to function as autonomous, responsible, and successful members of society.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h3>Basic Finance</h3>
+                        <p>We provide comprehensive training in personal financial management. Students master essential skills including budgeting, navigating banking systems, maintaining healthy credit scores, and employing effective debt management strategies.</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Basic Investing</h3>
+                        <p>This module offers a foundational introduction to asset classes, market dynamics, and risk assessment. Students learn long-term wealth accumulation strategies through both simulated environments and real-world case studies.</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Basic Tax and Law</h3>
+                        <p>We deliver critical education in taxation, civil rights, and administrative law. Our goal is to reduce the complexity of workforce entry by ensuring students fully understand their legal obligations and rights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop playsinline style="width: 100%; height: 80vh; object-fit: cover; margin-top: 60px;">
+            <source src="https://videos.pexels.com/video-files/6334247/6334247-uhd_2732_1440_25fps.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="curriculum" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Curriculum Structure</h2>
+            <p class="section-desc">A three-year course available starting in 6th grade (ages 11-12).</p>
+            
+            <div class="tabs">
+                <button class="tab-btn active" data-target="year1">Year 1: Foundation</button>
+                <button class="tab-btn" data-target="year2">Year 2: Intermediate</button>
+                <button class="tab-btn" data-target="year3">Year 3: Advanced</button>
+            </div>
+
+            <div class="tab-content active" id="year1">
+                <div class="course-list">
+                    <div class="course-item">
+                        <span class="code">HSEF 101</span>
+                        <h4>Financial Foundations</h4>
+                        <p>This course introduces personal money management, helping students understand banking systems and the critical importance of savings.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSEI 101</span>
+                        <h4>Investing Basics</h4>
+                        <p>Students explore the fundamental concepts of stocks and bonds while learning about the mathematical power of compound interest.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSET 101</span>
+                        <h4>Tax Essentials</h4>
+                        <p>This guide helps students understand income tax and sales tax, walking them through the process of filing simple returns.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSEL 101</span>
+                        <h4>Law Essentials</h4>
+                        <p>We provide an overview of the civil legal system, focusing on individual rights and essential civic responsibilities.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSER 101</span>
+                        <h4>Risk Management</h4>
+                        <p>Students learn to identify personal and financial risks and develop strategies to mitigate them effectively.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="year2">
+                <div class="course-list">
+                    <div class="course-item">
+                        <span class="code">HSEF 201</span>
+                        <h4>Personal Finance Management</h4>
+                        <p>This course covers advanced topics in budgeting, credit score management, and understanding complex loan structures.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSEA 201</span>
+                        <h4>Accounting Fundamentals</h4>
+                        <p>Students are introduced to double-entry bookkeeping, balance sheets, and the analysis of income statements.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSEI 201</span>
+                        <h4>Investment Strategies</h4>
+                        <p>We examine strategies for diversification and asset allocation, teaching students how to analyze market trends.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSET 201</span>
+                        <h4>Advanced Tax Planning</h4>
+                        <p>Students gain an understanding of tax deductions and credits, learning strategic planning to minimize liability.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSEL 201</span>
+                        <h4>Business and Contract Law</h4>
+                        <p>This course covers the essentials of contract law, employment rights, and various business entity structures.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="year3">
+                <div class="course-list">
+                    <div class="course-item">
+                        <span class="code">HSEF 301</span>
+                        <h4>Wealth Management</h4>
+                        <p>This comprehensive course focuses on planning for estate management, retirement, and long-term wealth preservation.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSEA 301</span>
+                        <h4>Financial Analysis and Reporting</h4>
+                        <p>Students learn techniques for analyzing corporate financial reports and assessing overall organizational health.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSEI 301</span>
+                        <h4>Portfolio Management</h4>
+                        <p>We explore advanced concepts in active versus passive investing, portfolio rebalancing, and risk-adjusted returns.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSET 301</span>
+                        <h4>Corporate and Estate Tax</h4>
+                        <p>This course provides an in-depth look at corporate taxation rules and the implications of estate taxes.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                    <div class="course-item">
+                        <span class="code">HSEL 301</span>
+                        <h4>Commercial and Property Law</h4>
+                        <p>Students study the legal frameworks governing commercial transactions, property rights, and real estate.</p>
+                        <span class="credits">1.0 Credits</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop playsinline style="width: 100%; height: 80vh; object-fit: cover; margin-top: 60px;">
+            <source src="https://videos.pexels.com/video-files/5198159/5198159-hd_1920_1080_25fps.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="hsei" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title text-light">HSE Index & Incentives</h2>
+            <div class="hsei-grid">
+                <div class="hsei-info">
+                    <div class="big-stat">1500<span>/1500</span></div>
+                    <p style="color: #888; margin-top: 10px;">Max HSE Index Score</p>
+                </div>
+                <div class="hsei-info">
+                    <div class="big-stat">15<span>Credits</span></div>
+                    <p style="color: #888; margin-top: 10px;">Total Program Credits</p>
+                </div>
+                <div class="hsei-details">
+                    <h3>Real-World Benefits & Financial Product Access</h3>
+                    <p style="color: #ccc; margin-bottom: 40px; line-height: 1.6; font-size: 1.1rem;">The HSE Index is not merely a grade; it is a creditworthiness score for the youth. Through our exclusive partnerships with major financial institutions, high-performing students gain access to a suite of financial products typically reserved for established adults. This system incentivizes responsibility by translating academic success into tangible economic power.</p>
+                    
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <h4>Early Banking Independence</h4>
+                            <p>Students who earn five or more credits can bypass standard age restrictions. They gain the ability to open independent chequing and savings accounts without parental co-signing, fostering early financial autonomy.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>Tier-1 Credit Card Eligibility</h4>
+                            <p>Upon reaching twelve credits, students qualify for unsecured student credit cards with limits up to $1,000. This allows them to build a credit history years ahead of their peers.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>Student Venture Capital Access</h4>
+                            <p>We offer exclusive eligibility to apply for the HSE Micro-Seed Fund. This fund provides up to $5,000 in non-dilutive grants for student-led business initiatives and startups.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>Preferred Rate Lending</h4>
+                            <p>Students gain access to the 'HSE Scholar Line of Credit' at preferential interest rates (Prime minus 0.5%) for post-secondary education or business capital needs.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>Junior Investor Trading Account</h4>
+                            <p>We provide restricted access to a real-money equity trading platform. It features zero-commission trades for the first twelve months and is supervised by certified financial planners.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>Comprehensive Asset Insurance</h4>
+                            <p>Students are automatically eligible for enrollment in discounted tenant and electronics insurance packages. These are essential for students moving into university dorms or off-campus housing.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h4>Global Currency Privileges</h4>
+                            <p>We offer access to multi-currency borderless accounts with waived foreign transaction fees, designed specifically for students pursuing international studies or travel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Featured Events</h2>
+            <p class="section-desc fade-in-up">Upcoming workshops, seminars, and collaborative summits with our educational partners.</p>
+            
+            <div class="events-grid">
+                <!-- Event 1 -->
+                <div class="event-card fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=2070&auto=format&fit=crop" alt="Ontario HSE Summit" class="event-image">
+                    <div class="event-content">
+                        <span class="event-date">April 5, 2041</span>
+                        <h3 class="event-title">Ontario HSE Summit 2041</h3>
+                        <p class="event-desc">Join us for the annual kickoff summit with the Ontario Ministry of Education. This pivotal event will gather educators, policymakers, and industry leaders to discuss the new fiscal year's HSE curriculum integration strategies, ensuring our educational frameworks remain aligned with the evolving financial and legal landscapes.</p>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="event-card fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032&auto=format&fit=crop" alt="Financial Literacy Workshop" class="event-image">
+                    <div class="event-content">
+                        <span class="event-date">April 19, 2041</span>
+                        <h3 class="event-title">TDSB Financial Literacy Workshop</h3>
+                        <p class="event-desc">A collaborative, hands-on workshop designed with Toronto District School Board educators. This session focuses on equipping middle school teachers with practical tools and methodologies to teach banking skills, budgeting, and financial responsibility effectively to younger students.</p>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="event-card fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=2070&auto=format&fit=crop" alt="Venture Capital Demo Day" class="event-image">
+                    <div class="event-content">
+                        <span class="event-date">May 3, 2041</span>
+                        <h3 class="event-title">Student Venture Capital Demo Day</h3>
+                        <p class="event-desc">Witness the future of innovation at our Student Venture Capital Demo Day. Held at the MaRS Discovery District, this event showcases the top student-led startups that have received funding from the HSE Micro-Seed Fund, providing them a platform to pitch to real investors.</p>
+                    </div>
+                </div>
+
+                <!-- Event 4 -->
+                <div class="event-card fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2012&auto=format&fit=crop" alt="Legal Rights Seminar" class="event-image">
+                    <div class="event-content">
+                        <span class="event-date">May 17, 2041</span>
+                        <h3 class="event-title">Legal Rights Seminar: Know Your Code</h3>
+                        <p class="event-desc">An interactive and essential seminar for high school seniors, hosted by distinguished faculty from Osgoode Hall Law School. This session dives deep into civil rights, administrative law, and the legal responsibilities that every young adult must understand before entering the workforce.</p>
+                    </div>
+                </div>
+
+                <!-- Event 5 -->
+                <div class="event-card fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop" alt="Future Finance Leaders Gala" class="event-image">
+                    <div class="event-content">
+                        <span class="event-date">May 31, 2041</span>
+                        <h3 class="event-title">Future Finance Leaders Gala</h3>
+                        <p class="event-desc">An exclusive networking evening connecting top-performing HSE students with senior mentors and executives from Canada's Big Five banks. This gala celebrates academic excellence and provides unparalleled opportunities for mentorship and career guidance in the financial sector.</p>
+                    </div>
+                </div>
+
+                <!-- Event 6 -->
+                <div class="event-card fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop" alt="Curriculum Review" class="event-image">
+                    <div class="event-content">
+                        <span class="event-date">June 14, 2041</span>
+                        <h3 class="event-title">HSE Curriculum Review Conference</h3>
+                        <p class="event-desc">Our annual comprehensive review meeting bringing together educational stakeholders, industry experts, and student representatives. The goal is to critically evaluate and update course materials and case studies to ensure they remain relevant for the upcoming academic year.</p>
+                    </div>
+                </div>
+
+                <!-- Event 7 -->
+                <div class="event-card fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop" alt="Internship Fair" class="event-image">
+                    <div class="event-content">
+                        <span class="event-date">June 28, 2041</span>
+                        <h3 class="event-title">Summer Internship Fair</h3>
+                        <p class="event-desc">A dedicated career fair exclusively for HSE graduates and senior students. This event connects talent with top employers seeking summer interns in financial, legal, and administrative sectors, facilitating the first step into their professional careers.</p>
+                    </div>
+                </div>
+
+                <!-- Event 8 -->
+                <div class="event-card fade-in-up">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop" alt="Global Partners Forum" class="event-image">
+                    <div class="event-content">
+                        <span class="event-date">July 12, 2041</span>
+                        <h3 class="event-title">Global Education Partners Forum</h3>
+                        <p class="event-desc">An international forum discussing the global expansion of the HSE model. Featuring guest speakers from the OECD and education ministries from Europe and Asia, this event explores how our framework can be adapted to serve students in international markets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Partners</h2>
+            <p class="section-desc fade-in-up">Collaborating with Financial Regulators, Education Authorities, and Major Banks.</p>
+            
+            <div class="marquee-container" oncontextmenu="return false;">
+                <div class="marquee-row">
+                    <div class="marquee-content">
+                        <img src="image 2.png" alt="Partner" draggable="false">
+                        <img src="image 3.png" alt="Partner" draggable="false" class="highlight">
+                        <img src="image 4.png" alt="Partner" draggable="false">
+                        <img src="image 6.png" alt="Partner" draggable="false">
+                        <img src="image 7.png" alt="Partner" draggable="false" class="highlight">
+                        <img src="image 8.png" alt="Partner" draggable="false">
+                        <!-- Duplicate -->
+                        <img src="image 2.png" alt="Partner" draggable="false">
+                        <img src="image 3.png" alt="Partner" draggable="false" class="highlight">
+                        <img src="image 4.png" alt="Partner" draggable="false">
+                        <img src="image 6.png" alt="Partner" draggable="false">
+                        <img src="image 7.png" alt="Partner" draggable="false" class="highlight">
+                        <img src="image 8.png" alt="Partner" draggable="false">
+                    </div>
+                </div>
+                <div class="marquee-row">
+                    <div class="marquee-content reverse">
+                        <img src="image 9.png" alt="Partner" draggable="false">
+                        <img src="image 10.png" alt="Partner" draggable="false">
+                        <img src="image 11.png" alt="Partner" draggable="false">
+                        <img src="image 12.png" alt="Partner" draggable="false">
+                        <img src="image 13.png" alt="Partner" draggable="false">
+                        <img src="image 14.png" alt="Partner" draggable="false">
+                        <!-- Duplicate -->
+                        <img src="image 9.png" alt="Partner" draggable="false">
+                        <img src="image 10.png" alt="Partner" draggable="false">
+                        <img src="image 11.png" alt="Partner" draggable="false">
+                        <img src="image 12.png" alt="Partner" draggable="false">
+                        <img src="image 13.png" alt="Partner" draggable="false">
+                        <img src="image 14.png" alt="Partner" draggable="false">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Facility Details -->
+                <div class="footer-col">
+                    <h3>Facility Details</h3>
+                    <div class="footer-details">
+                        <p><a href="mailto:inquiry@eedu.edu.ca">inquiry@eedu.edu.ca</a></p>
+                        <p><a href="mailto:helpdesk@eedu.edu.ca">helpdesk@eedu.edu.ca</a></p>
+                        <p><a href="mailto:registration@eedu.edu.ca">registration@eedu.edu.ca</a></p>
+                        <br>
+                        <p>Toronto, Ontario</p>
+                    </div>
+                </div>
+
+                <!-- Column 2: Helpful Links -->
+                <div class="footer-col">
+                    <h3>Helpful Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.tdsb.on.ca" target="_blank">TDSB</a></li>
+                        <li><a href="https://www.tcdsb.org" target="_blank">TCDSB</a></li>
+                        <li><a href="https://www.ontario.ca/page/ministry-education" target="_blank">Ontario Ministry of Education</a></li>
+                        <li><a href="https://www.eqao.com" target="_blank">EQAO</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Logo -->
+                <div class="footer-col footer-logo-col">
+                    <img src="EEDUwithtext.svg" alt="EEDU Logo" class="footer-logo-img">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025-26 Michael Joongmin Park. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
